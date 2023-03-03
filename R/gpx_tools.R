@@ -12,10 +12,11 @@ gpx_format <- function(x) {
 output_gpx <- function(x, filename) {
   outname <- paste(filename,".gpx", sep="")
   if(outname %in% dir()) {file.remove(outname)}
-  sf::st_write(obj = x, dsn=outname, type="w")
+  x_sf <- sf::st_as_sf(x, coords = c("Long", "Lat"))
+  sf::st_write(obj = x_sf, dsn=outname, type="w")
   tx <- readLines(paste(filename,".gpx", sep=""))
   tx2 <- gsub(pattern = "<gpx version=\"1.1\" creator=\"pgirbric\">", replace = "<gpx creator=\"Esri\" version=\"1.1\" xalan=\"http://xml.apache.org/xalan\" xmlns=\"http://www.topografix.com/GPX/1/1\" xsi=\"http://www.w3.org/2001/XMLSchema-instance\">", x = tx)
   writeLines(tx2, paste(filename,".gpx", sep=""))
 }
-
+# debug(output_gpx)
 # output_gpx(gpx_format(rand_sites), file_name)
