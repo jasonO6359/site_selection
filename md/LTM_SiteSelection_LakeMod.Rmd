@@ -60,16 +60,16 @@ if(!is.null(params$data)) {
 ```{r calls, eval=TRUE, include = FALSE}
 #print(params$river)
 #print(head(ltm_sites))
-rand_sites = random.sites(waterbody = params$river, sitelist = ltm_sites)
+rand_sites = random_sites(waterbody = params$river, sitelist = ltm_sites)
 #print(head(rand_sites))
 #print(file_name)
 #output_gpx(gpx_format(rand_sites), file_name)
 #write.csv(rand_sites, file = paste(file_name,".csv", sep=""))
 
-basemap = import.rivermap("C:/Users/jason.oconnor/OneDrive - Florida Fish and Wildlife Conservation/Documents/Misc/LTM_lakes_new.shp", params$river)
+basemap = import_rivermap("C:/Users/jason.oconnor/OneDrive - Florida Fish and Wildlife Conservation/Documents/Misc/LTM_lakes_new.shp", params$river)
 
 # # 
-sitemap = plot.sitemap(basemap,
+sitemap = plot_sitemap(basemap,
                          rand_sites,
                          point_size = 5,
                          map_title = title,

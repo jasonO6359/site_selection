@@ -5,16 +5,16 @@ format:
     message: false
     warning: false
     self-contained: true
-
 ---
+
 ```{r setup}
+
 library(leaflet)
 library(tidyverse)
 library(XML)
 library(ggmap)
 library(raster)
 library(sp)
-
 
 options(digits = 10)
 
@@ -48,10 +48,10 @@ geodf <- data.frame(id = name, lat = lats, lon = lons, sym = symb)
 geodf
 }
 
-ramps <- 
-  "boat_ramps.shp" %>% 
-  sf::st_read(quiet = TRUE) %>% 
-  sf::st_drop_geometry() %>% 
+ramps <-
+  "data/shapefiles/boat_ramps.shp" %>%
+  sf::st_read(quiet = TRUE) %>%
+  sf::st_drop_geometry() %>%
   dplyr::filter(County %in% c("Alachua", "Marion", "Putnam"))
 
 awesome <- makeAwesomeIcon(
@@ -70,7 +70,7 @@ nh = FALSE
 #| fig-height: 10.5
 #| fig-width: 7.5
 
-geodf <- import_gpx("Newnans_EF.gpx")
+geodf <- import_gpx("data/gpx/Newnans_EF.gpx")
 
 leaflet() %>%
   setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 14) %>%
@@ -99,7 +99,7 @@ leaflet() %>%
 #| fig-height: 10
 #| fig-width: 7.5
 
-geodf <- import_gpx("Lochloosa_EF.gpx")
+geodf <- import_gpx("data/gpx/Lochloosa_EF.gpx")
 
 leaflet() %>%
   setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 14) %>%
@@ -128,7 +128,7 @@ leaflet() %>%
 #| fig-height: 8
 #| fig-width: 8
 
-geodf <- import_gpx("Orange_EF.gpx")
+geodf <- import_gpx("data/gpx/Orange_EF.gpx")
 
 leaflet() %>%
   setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 13) %>%
@@ -158,7 +158,7 @@ leaflet() %>%
 #| fig-height: 6
 #| fig-width: 8
 
-geodf <- import_gpx("Rodman_EF.gpx")
+geodf <- import_gpx("data/gpx/Rodman_EF.gpx")
 
 leaflet() %>%
   setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 13) %>%

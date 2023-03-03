@@ -1,0 +1,102 @@
+---
+html:
+  self-contained: true
+  knitr:
+    opts_chunk: 
+      fig-width: 8.5
+      fig-height: 11
+      digits: 7
+    
+project:
+  execute-dir: project
+  output-dir: _output
+---
+
+```{r}
+#| include: false
+params <- list(river = "Santa Fe River", target= "Bass", year = "2020")
+title = paste(params$river, params$target, params$year, sep=" ")
+file_name = stringr::str_replace_all(paste(params$river, params$target, params$year, sep="_")," ", "_")
+source("R/ltm_site_selection.R")
+```
+
+::: {.title .h1}
+
+`r paste(title,"Site List", sep = " ")`
+
+:::
+
+
+```{r setup}
+#| include: true
+#| eval: true
+
+if(!is.null(params$data)) {
+  ltm_sites = format_siteList(params$data,
+                       column_mapping = list(Latitude = params$y_col, ident = params$id_col, Longitude = params$x_col),
+                       column_fill = list(Waterbody = params$river))}
+
+```
+
+
+```{r select-random-sites}
+
+rand_sites = random_sites(waterbody = params$river, sitelist = ltm_sites)
+print(head(rand_sites))
+#print(file_name)
+```
+
+```{r export-gpx}
+#| eval: false
+rand_sites_gpx <- output_gpx(gpx_format(rand_sites), file_name)
+#write.csv(rand_sites, file = paste(file_name,".csv", sep=""))
+```
+
+```{r create-basemap}
+#| eval: false
+
+basemap = import_rivermap("C:/Users/jason.oconnor/OneDrive - Florida Fish and Wildlife Conservation/Documents/Misc/LTM_lakes_new.shp", params$river)
+
+# # 
+sitemap = plot_sitemap(basemap,
+                         rand_sites,
+                         point_size = 5,
+                         map_title = title,
+                         save.to.file = TRUE,
+                         file_name = file_name)
+```
+
+
+```{r sitelist}
+#| eval: false
+#| results: asis
+#| include: false
+#| echo: false
+
+for(x in 1:length(levels(rand_sites$Zone))){
+  tab = rand_sites %>% 
+                     filter(Zone == levels(rand_sites$Zone)[[x]]) %>%
+                     dplyr::select(Site = ident, 
+                                   Longitude,
+                                   Latitude, 
+                                   Segment = Zone, 
+                                   Selection = selection)
+print(knitr::kable(tab %>% 
+  dplyr::mutate_at(c("Longitude","Latitude"),~base::format(.,digits = 7)),
+  format= "latex", caption = paste("Segment:",levels(rand_sites$Zone)[[x]], sep=" "),
+  digits = 7, booktabs = TRUE, longtable = TRUE, align = "c") %>%
+   kableExtra::kable_paper("hover", full_width = F) %>% 
+     kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 14) %>%
+    kableExtra::row_spec(which(tab$Selection == "Alternate"), background = "#ECECEC"))
+}
+```
+
+```{r sitemap}
+#| eval: false
+#| include: false
+#| echo: false
+#| out-extra=ifelse(params$rotate_map,"angle=270","angle=0")
+#| warning: false
+  
+ print(sitemap)
+```

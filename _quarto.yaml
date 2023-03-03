@@ -1,0 +1,18 @@
+project:
+  execute-dir: project
+  output-dir: _output
+
+format:
+  html:
+    html-math-method: katex
+    toc: false
+  pdf:
+    documentclass: report
+    margin-left: 30mm
+    margin-right: 30mm
+  docx:
+    execute:
+      echo: false
+      warning: false
+
+editor: source
