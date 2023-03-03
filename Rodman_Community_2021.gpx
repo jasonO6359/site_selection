@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<gpx creator="Esri" version="1.1" xalan="http://xml.apache.org/xalan" xmlns="http://www.topografix.com/GPX/1/1" xsi="http://www.w3.org/2001/XMLSchema-instance">
+<wpt lat="29.50826" lon="-81.80585">
+<name>RR04</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50412" lon="-81.81198">
+<name>RR05</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50446" lon="-81.81869">
+<name>RR06</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50949" lon="-81.83054">
+<name>RR08</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51072" lon="-81.83675">
+<name>RR09</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50951" lon="-81.84184">
+<name>RR10</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50967" lon="-81.84766">
+<name>RR11</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51427" lon="-81.85695">
+<name>RR13</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51339" lon="-81.86355">
+<name>RR14</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51236" lon="-81.87009">
+<name>RR15</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50604" lon="-81.88825">
+<name>RR18</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50955" lon="-81.89365">
+<name>RR19</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.49209" lon="-81.91317">
+<name>RR24</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.48727" lon="-81.91139">
+<name>RR25</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.48958" lon="-81.92029">
+<name>RR30</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.49545" lon="-81.91887">
+<name>RR31</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50505" lon="-81.91355">
+<name>RR33</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50783" lon="-81.91041">
+<name>RR34</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51089" lon="-81.90975">
+<name>RR35</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.5182" lon="-81.90254">
+<name>RR37</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51934" lon="-81.89518">
+<name>RR38</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51502" lon="-81.89114">
+<name>RR39</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51894" lon="-81.86855">
+<name>RR42</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.53115" lon="-81.84807">
+<name>RR46</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.53497" lon="-81.84273">
+<name>RR47</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.5374" lon="-81.83309">
+<name>RR49</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.5274" lon="-81.81668">
+<name>RR52</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.52596" lon="-81.81514">
+<name>RR53</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.52496" lon="-81.81019">
+<name>RR57</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.52591" lon="-81.80263">
+<name>RR58</name>
+<sym>Flag</sym>
+</wpt>
+</gpx>

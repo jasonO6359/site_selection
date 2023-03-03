@@ -1,0 +1,181 @@
+---
+format: 
+  html:
+    echo: false
+    message: false
+    warning: false
+    self-contained: true
+
+---
+```{r setup}
+library(leaflet)
+library(tidyverse)
+library(XML)
+library(ggmap)
+library(raster)
+library(sp)
+
+
+options(digits = 10)
+
+shift.vec <- function (vec, shift) {
+  if(length(vec) <= abs(shift)) {
+    rep(NA ,length(vec))
+  }else{
+    if (shift >= 0) {
+      c(rep(NA, shift), vec[1:(length(vec)-shift)]) }
+    else {
+      c(vec[(abs(shift)+1):length(vec)], rep(NA, abs(shift))) } } }
+
+
+midpt <- function(x) {
+  ((max(x) - min(x))/2) + min(x)
+}
+
+import_gpx <- function(file) {
+pfile <- htmlTreeParse(file = file, error = function(...) {
+}, useInternalNodes = T)
+
+
+# Get all elevations, times and coordinates via the respective xpath
+symb <- xpathSApply(pfile, path = "//wpt/sym", xmlValue)
+name <- xpathSApply(pfile, path = "//wpt/name", xmlValue)
+coords <- xpathSApply(pfile, path = "//wpt", xmlAttrs)
+lats <- as.numeric(coords["lat",])
+lons <- as.numeric(coords["lon",])
+
+geodf <- data.frame(id = name, lat = lats, lon = lons, sym = symb)
+geodf
+}
+
+ramps <- 
+  "boat_ramps.shp" %>% 
+  sf::st_read(quiet = TRUE) %>% 
+  sf::st_drop_geometry() %>% 
+  dplyr::filter(County %in% c("Alachua", "Marion", "Putnam"))
+
+awesome <- makeAwesomeIcon(
+  icon = "sailboat",
+  iconColor = "black",
+  markerColor = "blue",
+  library = "fa"
+)
+
+nh = FALSE
+```
+### Newnans
+```{r newnans-map}
+#| warning: false
+#| echo: false
+#| fig-height: 10.5
+#| fig-width: 7.5
+
+geodf <- import_gpx("Newnans_EF.gpx")
+
+leaflet() %>%
+  setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 14) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
+  addLabelOnlyMarkers (data = geodf,
+                   lng = ~ lon,
+             lat = ~ lat,
+             #icon = awesome,
+             #fillColor = ~getColor(ty2020),
+             label = ~ stringr::str_sub(id,-2),
+             labelOptions = labelOptions(noHide = TRUE,
+                                         direction = "top")) %>%
+  addAwesomeMarkers(data = ramps,
+                    icon = awesome,
+                    lng = ~ Longitude,
+                    lat = ~ Latitude,
+                    label = ~ Name,
+                    labelOptions = labelOptions(noHide = nh))
+
+```
+{{< pagebreak >}}
+### Lochloosa
+```{r pt-map-2}
+#| warning: false
+#| echo: false
+#| fig-height: 10
+#| fig-width: 7.5
+
+geodf <- import_gpx("Lochloosa_EF.gpx")
+
+leaflet() %>%
+  setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 14) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
+  addLabelOnlyMarkers (data = geodf,
+                   lng = ~ lon,
+             lat = ~ lat,
+             #icon = awesome,
+             #fillColor = ~getColor(ty2020),
+             label = ~ stringr::str_sub(id,-2),
+             labelOptions = labelOptions(noHide = TRUE,
+                                         offset = NULL)) %>%
+  addAwesomeMarkers(data = ramps,
+                    icon = awesome,
+                    lng = ~ Longitude,
+                    lat = ~ Latitude,
+                    label = ~ Name,
+                    labelOptions = labelOptions(noHide = nh))
+
+```
+{{< pagebreak >}}
+### Orange
+```{r pt-map-orange}
+#| warning: false
+#| echo: false
+#| fig-height: 8
+#| fig-width: 8
+
+geodf <- import_gpx("Orange_EF.gpx")
+
+leaflet() %>%
+  setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 13) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
+  addLabelOnlyMarkers (data = geodf,
+                   lng = ~ lon,
+             lat = ~ lat,
+             #icon = awesome,
+             #fillColor = ~getColor(ty2020),
+             label = ~ stringr::str_sub(id,-2),
+             labelOptions = labelOptions(noHide = TRUE,
+                                         offset = NULL)) %>%
+  addAwesomeMarkers(data = ramps,
+                    icon = awesome,
+                    lng = ~ Longitude,
+                    lat = ~ Latitude,
+                    label = ~ Name,
+                    labelOptions = labelOptions(noHide = nh,
+                                                direction = "auto"))
+
+```
+{{< pagebreak >}}
+### Rodman
+```{r rodman-map}
+#| warning: false
+#| echo: false
+#| fig-height: 6
+#| fig-width: 8
+
+geodf <- import_gpx("Rodman_EF.gpx")
+
+leaflet() %>%
+  setView(lat = midpt(geodf$lat), lng = midpt(geodf$lon), zoom = 13) %>%
+  addProviderTiles(providers$Esri.WorldImagery, group = "Satellite") %>%
+  addLabelOnlyMarkers (data = geodf,
+                   lng = ~ lon,
+             lat = ~ lat,
+             #icon = awesome,
+             #fillColor = ~getColor(ty2020),
+             label = ~ stringr::str_sub(id,-2),
+             labelOptions = labelOptions(noHide = TRUE,
+                                         direction = "top")) %>%
+  addAwesomeMarkers(data = ramps,
+                    icon = awesome,
+                    lng = ~ Longitude,
+                    lat = ~ Latitude,
+                    label = ~ Name,
+                    labelOptions = labelOptions(noHide = nh))
+
+```

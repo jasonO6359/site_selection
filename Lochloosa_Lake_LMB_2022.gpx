@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<gpx creator="Esri" version="1.1" xalan="http://xml.apache.org/xalan" xmlns="http://www.topografix.com/GPX/1/1" xsi="http://www.w3.org/2001/XMLSchema-instance">
+<wpt lat="29.5476" lon="-82.13305">
+<name>Loch_01</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.54419" lon="-82.13973">
+<name>Loch_02</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.53777" lon="-82.14212">
+<name>Loch_03</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.53149" lon="-82.14495">
+<name>Loch_04</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.52544" lon="-82.14837">
+<name>Loch_05</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51889" lon="-82.15021">
+<name>Loch_06</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51244" lon="-82.14791">
+<name>Loch_07</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50583" lon="-82.14943">
+<name>Loch_08</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.5018" lon="-82.15564">
+<name>Loch_09</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.49819" lon="-82.16219">
+<name>Loch_10</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.49802" lon="-82.15444">
+<name>Loch_11</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50082" lon="-82.1474">
+<name>Loch_12</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.506" lon="-82.14243">
+<name>Loch_13</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50662" lon="-82.13471">
+<name>Loch_14</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50047" lon="-82.13153">
+<name>Loch_15</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.49549" lon="-82.1263">
+<name>Loch_16</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.49404" lon="-82.11873">
+<name>Loch_17</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.49636" lon="-82.11145">
+<name>Loch_18</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50162" lon="-82.1066">
+<name>Loch_19</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.50805" lon="-82.10426">
+<name>Loch_20</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.51477" lon="-82.10493">
+<name>Loch_21</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.52086" lon="-82.10827">
+<name>Loch_22</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.52739" lon="-82.11022">
+<name>Loch_23</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.53391" lon="-82.11224">
+<name>Loch_24</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.53953" lon="-82.11652">
+<name>Loch_25</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.54429" lon="-82.12201">
+<name>Loch_26</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.54779" lon="-82.1294">
+<name>Loch_27</name>
+<sym>Flag</sym>
+</wpt>
+</gpx>

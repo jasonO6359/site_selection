@@ -1,0 +1,133 @@
+---
+output:
+  bookdown::pdf_document2:
+    df_print: kable
+    toc: false
+params:
+    river: 
+      label: "Waterbody"
+      value: "Santa Fe River"
+      input: text
+    target:
+      label: "Target"
+      value: Community
+      input: select
+      choices: [Community, LMB, BLCR, PAN, OTHER]
+    year:
+      label: "Year"
+      value: 2022
+    data:
+      label: "Site List"
+      value: NULL
+      input: file
+    id_col: 
+      label: "ID column"
+      value: "SiteID"
+      input: text
+    x_col:
+      label: "Name of longitude column"
+      value: "Longitude"
+      input: text
+    y_col:
+      label: "Name of latitude column"
+      value: "Latitude"
+      input: text
+    rotate_map: TRUE
+always_allow_html: true
+#includes:
+#  in_header: myheader.tex
+---
+
+---
+title: `r paste(params$river,"Site List", sep = " ")`
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, fig.pos="!H",
+                      fig.width = ggplot2::unit(8.5, "inches"),
+                      fig.height = ggplot2::unit(11, "inches"))
+knitr::opts_knit$set(root.dir = "C:/Users/jason.oconnor/OneDrive - Florida Fish and Wildlife Conservation/Documents/Projects/Gainesville/LTM/Tools/Site_Selection")
+options(digits = 7)
+title = paste(params$river, params$target, params$year, sep=" ")
+file_name = stringr::str_replace_all(paste(params$river, params$target, params$year, sep="_")," ", "_")
+source("ltm_site_selection.R")
+type = default_selection[[params$river]]$method 
+if(!is.null(params$data)) {
+  if(default_selection[[params$river]]$method == "center-line"){
+  ltm_sites = format_siteList(params$data,
+                       column_mapping = list(Latitude = params$y_col, ident = params$id_col, Longitude = params$x_col),
+                       column_fill = list(Waterbody = params$river), method = default_selection[[params$river]]$method)} else if(default_selection[[params$river]]$method == "grid"){
+  ltm_sites = format_siteList(params$data,
+                       column_mapping = list(Latitude = params$y_col, ident = params$id_col, Longitude = params$x_col, 
+                                             Grid = "GRID",
+                                             Habitat = "Habitat",
+                                             Minigrid = "Minigrid",
+                                             Zone = "River.Segment"
+                                             ),
+                       column_fill = list(Waterbody = params$river),
+                       method = default_selection[[params$river]]$method)}
+                       }
+```
+
+```{r calls, eval=TRUE, include = FALSE}
+rand_sites = random.sites(waterbody = params$river, sitelist = ltm_sites)
+output_gpx(gpx_format(rand_sites), file_name)
+write.csv(rand_sites, file = paste(file_name,".csv", sep=""))
+
+basemap = import.rivermap("C:/Users/jason.oconnor/OneDrive - Florida Fish and Wildlife Conservation/Documents/Misc/rivers.shp", params$river)
+
+sitemap = plot.sitemap(basemap, 
+                         rand_sites, 
+                         point_size = 5, 
+                         map_title = title, 
+                         save.to.file = TRUE, 
+                         file_name = file_name)
+```
+
+```{r sitelist, eval = TRUE, results="asis", include = TRUE, echo=FALSE}
+options(tinytex.verbose = TRUE)
+if(type == "center-line"){
+for(x in 1:length(levels(rand_sites$Zone))){
+  tab = rand_sites %>% 
+                     filter(Zone == levels(rand_sites$Zone)[[x]]) %>%
+                     dplyr::select(Site = ident, 
+                                   Longitude,
+                                   Latitude, 
+                                   Segment = Zone, 
+                                   Selection = selection)
+print(knitr::kable(tab %>% 
+  dplyr::mutate_at(c("Longitude","Latitude"),~base::format(.,digits = 7)),
+  format= "latex", 
+  caption = paste("Segment: ",levels(rand_sites$Zone)[[x]], sep=""),
+  digits = 7, booktabs = TRUE, longtable = TRUE, align = "c") %>%
+   kableExtra::kable_paper("hover", full_width = F) %>% 
+     kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 14) %>%
+    kableExtra::row_spec(which(tab$Selection == "Alternate"), background = "#ECECEC"))
+}} else if(type == "grid"){
+  strata = rand_sites %>% distinct(Strata) %>% pull()
+  for(x in 1:length(strata)){
+  tab = rand_sites %>% 
+    mutate(new_id = row_number()) %>%
+                     filter(Strata == strata[[x]]) %>%
+                     dplyr::select(Site = new_id, 
+                                   Longitude,
+                                   Latitude, 
+                                   Segment = Zone,
+                                   Habitat = Habitat,
+                                   Grid = Grid,
+                                   Minigrid = Minigrid,
+                                   Selection = selection)
+print(knitr::kable(tab %>% 
+  dplyr::mutate_at(c("Longitude","Latitude"),~base::format(.,digits = 7)),
+  format= "latex",
+  #caption = paste(" \"","Segment:",unique(rand_sites$Strata)[[x]],"\"", sep=""),
+  digits = 7, booktabs = TRUE, longtable = TRUE, align = "c") %>%
+   kableExtra::kable_paper("hover", full_width = F) %>% 
+     kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 14) %>%
+    kableExtra::row_spec(which(tab$Selection == "Alternate"), background = "#ECECEC"))
+  }
+}
+```
+\newpage
+```{r sitemap, eval = TRUE, include = TRUE, echo=FALSE, out.extra=ifelse(params$rotate_map,"angle=270","angle=0"), warning=FALSE}
+ print(sitemap)
+```

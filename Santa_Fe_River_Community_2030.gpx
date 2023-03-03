@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<gpx creator="Esri" version="1.1" xalan="http://xml.apache.org/xalan" xmlns="http://www.topografix.com/GPX/1/1" xsi="http://www.w3.org/2001/XMLSchema-instance">
+<wpt lat="29.92745" lon="-82.5567">
+<name>SFR1102</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.92602" lon="-82.54848">
+<name>SFR1129</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.92503" lon="-82.54353">
+<name>SFR1132</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.92553" lon="-82.54258">
+<name>SFR1141</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.92922" lon="-82.53612">
+<name>SFR1159</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.94095" lon="-82.52798">
+<name>SFR1190</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.94035" lon="-82.53028">
+<name>SFR1191</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.83463" lon="-82.67748">
+<name>SFR0701</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.83165" lon="-82.66957">
+<name>SFR0719</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.82687" lon="-82.6538">
+<name>SFR0752</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.83097" lon="-82.6374">
+<name>SFR0790</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.83127" lon="-82.63772">
+<name>SFR0795</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84082" lon="-82.63268">
+<name>SFR0816</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84438" lon="-82.63055">
+<name>SFR0826</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84748" lon="-82.61745">
+<name>SFR0866</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84965" lon="-82.61782">
+<name>SFR0875</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.86035" lon="-82.59518">
+<name>SFR0971</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.86187" lon="-82.59267">
+<name>SFR0974</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.86285" lon="-82.59263">
+<name>SFR0979</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.87322" lon="-82.58992">
+<name>SFR1012</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.9323" lon="-82.79318">
+<name>SFR0246</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.9349" lon="-82.79088">
+<name>SFR0256</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.93232" lon="-82.78858">
+<name>SFR0264</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.92827" lon="-82.77003">
+<name>SFR0315</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.92577" lon="-82.77127">
+<name>SFR0320</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.9217" lon="-82.77068">
+<name>SFR0333</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.8986" lon="-82.75768">
+<name>SFR0435</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.89657" lon="-82.75757">
+<name>SFR0436</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.89362" lon="-82.75405">
+<name>SFR0446</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.89342" lon="-82.75305">
+<name>SFR0451</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.89173" lon="-82.75237">
+<name>SFR0455</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.88458" lon="-82.7532">
+<name>SFR0468</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.8801" lon="-82.75207">
+<name>SFR0483</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84827" lon="-82.71365">
+<name>SFR0598</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84733" lon="-82.70985">
+<name>SFR0606</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84095" lon="-82.70595">
+<name>SFR0628</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.84065" lon="-82.70497">
+<name>SFR0630</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.90065" lon="-82.86688">
+<name>SFR0047</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.90427" lon="-82.86505">
+<name>SFR0058</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.90643" lon="-82.86488">
+<name>SFR0063</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.90682" lon="-82.8642">
+<name>SFR0064</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.91133" lon="-82.86103">
+<name>SFR0078</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.9134" lon="-82.84057">
+<name>SFR0123</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.91442" lon="-82.83922">
+<name>SFR0126</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.91682" lon="-82.82863">
+<name>SFR0154</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.9191" lon="-82.82543">
+<name>SFR0162</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.93038" lon="-82.81202">
+<name>SFR0200</name>
+<sym>Flag</sym>
+</wpt>
+</gpx>

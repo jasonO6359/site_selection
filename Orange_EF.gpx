@@ -1,0 +1,1565 @@
+﻿<?xml version="1.0" encoding="utf-8"?><gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2022-10-04T22:37:00Z</time>
+    <bounds maxlat="29.505461733788252" maxlon="-82.117311246693134" minlat="29.419974535703659" minlon="-82.218935620039701" />
+  </metadata>
+
+  <wpt lat="29.478875510394573" lon="-82.167986305430532">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_01</name>
+    <cmt>X: -82.16798631&lt;br&gt;Y: 29.47887547</cmt>
+    <desc>X: -82.16798631&lt;br&gt;Y: 29.47887547</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.482739064842463" lon="-82.171260109171271">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_02</name>
+    <cmt>X: -82.17126007&lt;br&gt;Y: 29.48273905</cmt>
+    <desc>X: -82.17126007&lt;br&gt;Y: 29.48273905</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.484175471588969" lon="-82.174845803529024">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_03</name>
+    <cmt>X: -82.17484579&lt;br&gt;Y: 29.48417546</cmt>
+    <desc>X: -82.17484579&lt;br&gt;Y: 29.48417546</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.488177578896284" lon="-82.179402289912105">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_04</name>
+    <cmt>X: -82.17940227&lt;br&gt;Y: 29.48817762</cmt>
+    <desc>X: -82.17940227&lt;br&gt;Y: 29.48817762</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.487350452691317" lon="-82.183984173461795">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_05</name>
+    <cmt>X: -82.18398419&lt;br&gt;Y: 29.48735044</cmt>
+    <desc>X: -82.18398419&lt;br&gt;Y: 29.48735044</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.492854010313749" lon="-82.186075374484062">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_06</name>
+    <cmt>X: -82.18607536&lt;br&gt;Y: 29.49285402</cmt>
+    <desc>X: -82.18607536&lt;br&gt;Y: 29.49285402</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.494065279141068" lon="-82.193119861185551">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_07</name>
+    <cmt>X: -82.19311983&lt;br&gt;Y: 29.49406524</cmt>
+    <desc>X: -82.19311983&lt;br&gt;Y: 29.49406524</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.497299939393997" lon="-82.199281649664044">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_08</name>
+    <cmt>X: -82.19928167&lt;br&gt;Y: 29.49729994</cmt>
+    <desc>X: -82.19928167&lt;br&gt;Y: 29.49729994</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.499569004401565" lon="-82.204527882859111">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_09</name>
+    <cmt>X: -82.20452787&lt;br&gt;Y: 29.49956901</cmt>
+    <desc>X: -82.20452787&lt;br&gt;Y: 29.49956901</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.505437090992928" lon="-82.206621011719108">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_10</name>
+    <cmt>X: -82.20662105&lt;br&gt;Y: 29.50543706</cmt>
+    <desc>X: -82.20662105&lt;br&gt;Y: 29.50543706</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.505461733788252" lon="-82.213584780693054">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_11</name>
+    <cmt>X: -82.21358479&lt;br&gt;Y: 29.50546175</cmt>
+    <desc>X: -82.21358479&lt;br&gt;Y: 29.50546175</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.501708904281259" lon="-82.216984648257494">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_12</name>
+    <cmt>X: -82.21698469&lt;br&gt;Y: 29.50170893</cmt>
+    <desc>X: -82.21698469&lt;br&gt;Y: 29.50170893</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.497357858344913" lon="-82.218935620039701">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_13</name>
+    <cmt>X: -82.21893566&lt;br&gt;Y: 29.49735789</cmt>
+    <desc>X: -82.21893566&lt;br&gt;Y: 29.49735789</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.493977017700672" lon="-82.21866387873888">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_14</name>
+    <cmt>X: -82.21866389&lt;br&gt;Y: 29.49397703</cmt>
+    <desc>X: -82.21866389&lt;br&gt;Y: 29.49397703</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.488304061815143" lon="-82.21533827483654">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_15</name>
+    <cmt>X: -82.21533831&lt;br&gt;Y: 29.48830403</cmt>
+    <desc>X: -82.21533831&lt;br&gt;Y: 29.48830403</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.484743429347873" lon="-82.212177207693458">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_16</name>
+    <cmt>X: -82.21217721&lt;br&gt;Y: 29.48474342</cmt>
+    <desc>X: -82.21217721&lt;br&gt;Y: 29.48474342</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.481098391115665" lon="-82.206498803570867">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_17</name>
+    <cmt>X: -82.20649878&lt;br&gt;Y: 29.48109839</cmt>
+    <desc>X: -82.20649878&lt;br&gt;Y: 29.48109839</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.475955339148641" lon="-82.205187371000648">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_18</name>
+    <cmt>X: -82.2051874&lt;br&gt;Y: 29.47595532</cmt>
+    <desc>X: -82.2051874&lt;br&gt;Y: 29.47595532</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.471566490828991" lon="-82.201365139335394">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_19</name>
+    <cmt>X: -82.20136512&lt;br&gt;Y: 29.47156651</cmt>
+    <desc>X: -82.20136512&lt;br&gt;Y: 29.47156651</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.466816885396838" lon="-82.197529999539256">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_20</name>
+    <cmt>X: -82.19753003&lt;br&gt;Y: 29.4668169</cmt>
+    <desc>X: -82.19753003&lt;br&gt;Y: 29.4668169</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.464056557044387" lon="-82.191959889605641">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_21</name>
+    <cmt>X: -82.19195993&lt;br&gt;Y: 29.46405658</cmt>
+    <desc>X: -82.19195993&lt;br&gt;Y: 29.46405658</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.459341401234269" lon="-82.188053419813514">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_22</name>
+    <cmt>X: -82.1880534&lt;br&gt;Y: 29.45934141</cmt>
+    <desc>X: -82.1880534&lt;br&gt;Y: 29.45934141</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.452715422958136" lon="-82.188917342573404">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_23</name>
+    <cmt>X: -82.18891733&lt;br&gt;Y: 29.4527154</cmt>
+    <desc>X: -82.18891733&lt;br&gt;Y: 29.4527154</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.452079404145479" lon="-82.195418011397123">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_24</name>
+    <cmt>X: -82.195418&lt;br&gt;Y: 29.4520794</cmt>
+    <desc>X: -82.195418&lt;br&gt;Y: 29.4520794</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.454320808872581" lon="-82.201094320043921">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_25</name>
+    <cmt>X: -82.20109432&lt;br&gt;Y: 29.45432077</cmt>
+    <desc>X: -82.20109432&lt;br&gt;Y: 29.45432077</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.450321299955249" lon="-82.205992788076401">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_26</name>
+    <cmt>X: -82.20599275&lt;br&gt;Y: 29.45032132</cmt>
+    <desc>X: -82.20599275&lt;br&gt;Y: 29.45032132</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.451522091403604" lon="-82.208480536937714">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_27</name>
+    <cmt>X: -82.2084805&lt;br&gt;Y: 29.45152205</cmt>
+    <desc>X: -82.2084805&lt;br&gt;Y: 29.45152205</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.447246314957738" lon="-82.210965435951948">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_28</name>
+    <cmt>X: -82.21096547&lt;br&gt;Y: 29.44724635</cmt>
+    <desc>X: -82.21096547&lt;br&gt;Y: 29.44724635</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.442678848281503" lon="-82.207149155437946">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_29</name>
+    <cmt>X: -82.20714915&lt;br&gt;Y: 29.44267887</cmt>
+    <desc>X: -82.20714915&lt;br&gt;Y: 29.44267887</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.436267530545592" lon="-82.207435732707381">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_30</name>
+    <cmt>X: -82.20743572&lt;br&gt;Y: 29.43626751</cmt>
+    <desc>X: -82.20743572&lt;br&gt;Y: 29.43626751</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.433046197518706" lon="-82.210712973028421">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_31</name>
+    <cmt>X: -82.21071301&lt;br&gt;Y: 29.43304616</cmt>
+    <desc>X: -82.21071301&lt;br&gt;Y: 29.43304616</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.42810095846653" lon="-82.207911070436239">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_32</name>
+    <cmt>X: -82.20791111&lt;br&gt;Y: 29.42810096</cmt>
+    <desc>X: -82.20791111&lt;br&gt;Y: 29.42810096</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.426425751298666" lon="-82.201760429888964">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_33</name>
+    <cmt>X: -82.20176039&lt;br&gt;Y: 29.42642574</cmt>
+    <desc>X: -82.20176039&lt;br&gt;Y: 29.42642574</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.423947809264064" lon="-82.196134580299258">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_34</name>
+    <cmt>X: -82.19613456&lt;br&gt;Y: 29.42394785</cmt>
+    <desc>X: -82.19613456&lt;br&gt;Y: 29.42394785</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.422864951193333" lon="-82.190256770700216">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_35</name>
+    <cmt>X: -82.19025678&lt;br&gt;Y: 29.42286495</cmt>
+    <desc>X: -82.19025678&lt;br&gt;Y: 29.42286495</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.426960851997137" lon="-82.184780118986964">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_36</name>
+    <cmt>X: -82.18478013&lt;br&gt;Y: 29.42696084</cmt>
+    <desc>X: -82.18478013&lt;br&gt;Y: 29.42696084</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.429024895653129" lon="-82.183426273986697">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_37</name>
+    <cmt>X: -82.18342629&lt;br&gt;Y: 29.42902487</cmt>
+    <desc>X: -82.18342629&lt;br&gt;Y: 29.42902487</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.432728942483664" lon="-82.188675105571747">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_38</name>
+    <cmt>X: -82.18867514&lt;br&gt;Y: 29.43272893</cmt>
+    <desc>X: -82.18867514&lt;br&gt;Y: 29.43272893</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.438637346029282" lon="-82.185985101386905">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_39</name>
+    <cmt>X: -82.18598512&lt;br&gt;Y: 29.43863735</cmt>
+    <desc>X: -82.18598512&lt;br&gt;Y: 29.43863735</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.439519960433245" lon="-82.180132437497377">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_40</name>
+    <cmt>X: -82.18013244&lt;br&gt;Y: 29.43951998</cmt>
+    <desc>X: -82.18013244&lt;br&gt;Y: 29.43951998</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.436704898253083" lon="-82.174228811636567">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_41</name>
+    <cmt>X: -82.17422885&lt;br&gt;Y: 29.43670489</cmt>
+    <desc>X: -82.17422885&lt;br&gt;Y: 29.43670489</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.43144416436553" lon="-82.171451970934868">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_42</name>
+    <cmt>X: -82.17145194&lt;br&gt;Y: 29.43144414</cmt>
+    <desc>X: -82.17145194&lt;br&gt;Y: 29.43144414</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.435158520936966" lon="-82.167781200259924">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_43</name>
+    <cmt>X: -82.16778122&lt;br&gt;Y: 29.43515853</cmt>
+    <desc>X: -82.16778122&lt;br&gt;Y: 29.43515853</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.431746751070023" lon="-82.162812994793057">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_44</name>
+    <cmt>X: -82.16281302&lt;br&gt;Y: 29.43174679</cmt>
+    <desc>X: -82.16281302&lt;br&gt;Y: 29.43174679</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.429686982184649" lon="-82.159155970439315">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_45</name>
+    <cmt>X: -82.15915594&lt;br&gt;Y: 29.42968699</cmt>
+    <desc>X: -82.15915594&lt;br&gt;Y: 29.42968699</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.427626291289926" lon="-82.152751693502069">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_46</name>
+    <cmt>X: -82.15275168&lt;br&gt;Y: 29.42762629</cmt>
+    <desc>X: -82.15275168&lt;br&gt;Y: 29.42762629</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.425053549930453" lon="-82.147532114759088">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_47</name>
+    <cmt>X: -82.14753214&lt;br&gt;Y: 29.42505356</cmt>
+    <desc>X: -82.14753214&lt;br&gt;Y: 29.42505356</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.420653386041522" lon="-82.145460192114115">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_48</name>
+    <cmt>X: -82.1454602&lt;br&gt;Y: 29.42065339</cmt>
+    <desc>X: -82.1454602&lt;br&gt;Y: 29.42065339</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.419974535703659" lon="-82.142219915986061">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_49</name>
+    <cmt>X: -82.1422199&lt;br&gt;Y: 29.41997451</cmt>
+    <desc>X: -82.1422199&lt;br&gt;Y: 29.41997451</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.423382617533207" lon="-82.145928991958499">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_50</name>
+    <cmt>X: -82.14592896&lt;br&gt;Y: 29.42338264</cmt>
+    <desc>X: -82.14592896&lt;br&gt;Y: 29.42338264</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.427523948252201" lon="-82.146422183141112">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_51</name>
+    <cmt>X: -82.14642222&lt;br&gt;Y: 29.42752393</cmt>
+    <desc>X: -82.14642222&lt;br&gt;Y: 29.42752393</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.432279169559479" lon="-82.145194401964545">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_52</name>
+    <cmt>X: -82.14519444&lt;br&gt;Y: 29.43227916</cmt>
+    <desc>X: -82.14519444&lt;br&gt;Y: 29.43227916</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.436540445312858" lon="-82.139801485463977">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_53</name>
+    <cmt>X: -82.13980149&lt;br&gt;Y: 29.43654045</cmt>
+    <desc>X: -82.13980149&lt;br&gt;Y: 29.43654045</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.441962111741304" lon="-82.136956499889493">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_54</name>
+    <cmt>X: -82.13695653&lt;br&gt;Y: 29.44196215</cmt>
+    <desc>X: -82.13695653&lt;br&gt;Y: 29.44196215</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.439765717834234" lon="-82.133524529635906">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_55</name>
+    <cmt>X: -82.13352455&lt;br&gt;Y: 29.4397657</cmt>
+    <desc>X: -82.13352455&lt;br&gt;Y: 29.4397657</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.44087078794837" lon="-82.129700286313891">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_56</name>
+    <cmt>X: -82.12970029&lt;br&gt;Y: 29.44087077</cmt>
+    <desc>X: -82.12970029&lt;br&gt;Y: 29.44087077</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.436676986515522" lon="-82.127616880461574">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_57</name>
+    <cmt>X: -82.12761685&lt;br&gt;Y: 29.43667701</cmt>
+    <desc>X: -82.12761685&lt;br&gt;Y: 29.43667701</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.432627102360129" lon="-82.123429281637073">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_58</name>
+    <cmt>X: -82.1234293&lt;br&gt;Y: 29.43262712</cmt>
+    <desc>X: -82.1234293&lt;br&gt;Y: 29.43262712</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.434488890692592" lon="-82.117311246693134">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_59</name>
+    <cmt>X: -82.11731122&lt;br&gt;Y: 29.4344889</cmt>
+    <desc>X: -82.11731122&lt;br&gt;Y: 29.4344889</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.438663832843304" lon="-82.119864793494344">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_60</name>
+    <cmt>X: -82.11986479&lt;br&gt;Y: 29.43866381</cmt>
+    <desc>X: -82.11986479&lt;br&gt;Y: 29.43866381</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.440055312588811" lon="-82.125657610595226">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_61</name>
+    <cmt>X: -82.12565758&lt;br&gt;Y: 29.44005528</cmt>
+    <desc>X: -82.12565758&lt;br&gt;Y: 29.44005528</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.444542396813631" lon="-82.130368240177631">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_62</name>
+    <cmt>X: -82.13036826&lt;br&gt;Y: 29.44454239</cmt>
+    <desc>X: -82.13036826&lt;br&gt;Y: 29.44454239</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.446081565693021" lon="-82.137134782969952">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_63</name>
+    <cmt>X: -82.13713476&lt;br&gt;Y: 29.44608156</cmt>
+    <desc>X: -82.13713476&lt;br&gt;Y: 29.44608156</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.442442143335938" lon="-82.139258254319429">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_64</name>
+    <cmt>X: -82.13925826&lt;br&gt;Y: 29.44244212</cmt>
+    <desc>X: -82.13925826&lt;br&gt;Y: 29.44244212</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.437100440263748" lon="-82.141927890479565">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_65</name>
+    <cmt>X: -82.14192791&lt;br&gt;Y: 29.43710042</cmt>
+    <desc>X: -82.14192791&lt;br&gt;Y: 29.43710042</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.436245821416378" lon="-82.147768316790462">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_66</name>
+    <cmt>X: -82.1477683&lt;br&gt;Y: 29.43624581</cmt>
+    <desc>X: -82.1477683&lt;br&gt;Y: 29.43624581</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.440679680556059" lon="-82.150974897667766">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_67</name>
+    <cmt>X: -82.15097489&lt;br&gt;Y: 29.44067966</cmt>
+    <desc>X: -82.15097489&lt;br&gt;Y: 29.44067966</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.443656345829368" lon="-82.156755225732923">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_68</name>
+    <cmt>X: -82.15675519&lt;br&gt;Y: 29.44365637</cmt>
+    <desc>X: -82.15675519&lt;br&gt;Y: 29.44365637</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.449640354141593" lon="-82.155955843627453">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_69</name>
+    <cmt>X: -82.15595586&lt;br&gt;Y: 29.44964037</cmt>
+    <desc>X: -82.15595586&lt;br&gt;Y: 29.44964037</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.45580423809588" lon="-82.158875679597259">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_70</name>
+    <cmt>X: -82.15887567&lt;br&gt;Y: 29.45580421</cmt>
+    <desc>X: -82.15887567&lt;br&gt;Y: 29.45580421</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.461413575336337" lon="-82.161683365702629">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_71</name>
+    <cmt>X: -82.16168336&lt;br&gt;Y: 29.46141355</cmt>
+    <desc>X: -82.16168336&lt;br&gt;Y: 29.46141355</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.463945161551237" lon="-82.165897702798247">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_72</name>
+    <cmt>X: -82.16589769&lt;br&gt;Y: 29.46394514</cmt>
+    <desc>X: -82.16589769&lt;br&gt;Y: 29.46394514</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.469714174047112" lon="-82.169124400243163">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_73</name>
+    <cmt>X: -82.16912439&lt;br&gt;Y: 29.46971416</cmt>
+    <desc>X: -82.16912439&lt;br&gt;Y: 29.46971416</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+  <wpt lat="29.474522117525339" lon="-82.165217846632004">
+    <ele>0</ele>
+    <time>2019-10-02T17:12:29Z</time>
+    <name>Or_74</name>
+    <cmt>X: -82.16521781&lt;br&gt;Y: 29.47452208</cmt>
+    <desc>X: -82.16521781&lt;br&gt;Y: 29.47452208</desc>
+    <sym>Flag, Blue</sym>
+    <type>user</type>
+    <extensions>
+      <gpxx:WaypointExtension>
+        <gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+      </gpxx:WaypointExtension>
+      <wptx1:WaypointExtension>
+        <wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+      </wptx1:WaypointExtension>
+      <ctx:CreationTimeExtension>
+        <ctx:CreationTime>2019-10-02T17:12:29Z</ctx:CreationTime>
+      </ctx:CreationTimeExtension>
+    </extensions>
+  </wpt>
+
+</gpx>

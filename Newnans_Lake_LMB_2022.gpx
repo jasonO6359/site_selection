@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<gpx creator="Esri" version="1.1" xalan="http://xml.apache.org/xalan" xmlns="http://www.topografix.com/GPX/1/1" xsi="http://www.w3.org/2001/XMLSchema-instance">
+<wpt lat="29.63881" lon="-82.20314">
+<name>NL_EF_01a</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.64319" lon="-82.20032">
+<name>NL_EF_02</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.64989" lon="-82.1995">
+<name>NL_EF_03</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.65664" lon="-82.19969">
+<name>NL_EF_04</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.66295" lon="-82.20241">
+<name>NL_EF_05</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.66881" lon="-82.20627">
+<name>NL_EF_06</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.67252" lon="-82.21275">
+<name>NL_EF_07</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.6749" lon="-82.22001">
+<name>NL_EF_08</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.67487" lon="-82.22778">
+<name>NL_EF_09</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.67093" lon="-82.23408">
+<name>NL_EF_10</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.66449" lon="-82.23638">
+<name>NL_EF_11</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.65774" lon="-82.23635">
+<name>NL_EF_12</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.651" lon="-82.23647">
+<name>NL_EF_13</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.64427" lon="-82.23695">
+<name>NL_EF_14</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.63754" lon="-82.23638">
+<name>NL_EF_15</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.63506" lon="-82.24359">
+<name>NL_EF_16</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.63008" lon="-82.24883">
+<name>NL_EF_17</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.62334" lon="-82.24929">
+<name>NL_EF_18</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.61671" lon="-82.2507">
+<name>NL_EF_19</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.61576" lon="-82.24302">
+<name>NL_EF_20</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.61555" lon="-82.23526">
+<name>NL_EF_21</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.61672" lon="-82.22762">
+<name>NL_EF_22</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.6205" lon="-82.2212">
+<name>NL_EF_23</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.62323" lon="-82.2141">
+<name>NL_EF_24</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.6277" lon="-82.2083">
+<name>NL_EF_25</name>
+<sym>Flag</sym>
+</wpt>
+<wpt lat="29.63437" lon="-82.2071">
+<name>NL_EF_26</name>
+<sym>Flag</sym>
+</wpt>
+</gpx>
