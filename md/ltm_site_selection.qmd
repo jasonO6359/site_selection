@@ -1,22 +1,60 @@
 ---
+execute: 
+  echo: false
+  
 html:
   self-contained: true
+  page-layout: full
   knitr:
     opts_chunk: 
       fig-width: 8.5
       fig-height: 11
       digits: 7
-    
-project:
-  execute-dir: project
-  output-dir: _output
+      
+params:
+  river: "Ocklawaha River"
+  target: "Community"
+  year: 2023
+  data: "data/csv/Ocklawaha_sites_all.csv"
+  column_mapping: 'list(Latitude = "Y",
+                        ident = "FID_1_1",
+                        Longitude = "X",
+                        Habitat = "Habitat",
+                        Zone = "River.Segment",
+                        Grid = "GRID",
+                        Waterbody = "REGION",
+                        Minigrid = "Minigrid")'
 ---
+
 
 ```{r}
 #| include: false
-params <- list(river = "Santa Fe River", target= "Bass", year = "2020")
-title = paste(params$river, params$target, params$year, sep=" ")
-file_name = stringr::str_replace_all(paste(params$river, params$target, params$year, sep="_")," ", "_")
+
+parameters <- params
+
+if("column_mapping" %in% names(parameters)) {
+  parameters$column_mapping <- eval(parse(text = parameters$column_mapping))
+}
+
+if(Sys.getenv("RSTUDIO_CHILD_PROCESS_PANE") == "") {
+  parameters$data = paste("../", parameters$data, sep = "")
+}
+
+# Waterbody = character(),
+#           type = character(),
+#           ident = character(),
+#           Latitude = numeric(),
+#           Longitude = numeric(),
+#           Habitat = character(),
+#           Zone = integer(),
+#           Grid = integer(),
+#           Minigrid = integer(),
+#           Exclude = logical())
+
+
+title = paste(parameters$river, parameters$target, parameters$year, sep=" ")
+out_dir = "_output"
+file_name = stringr::str_replace_all(paste(parameters$river, parameters$target, parameters$year, sep="_")," ", "_")
 source("R/ltm_site_selection.R")
 ```
 
@@ -26,36 +64,59 @@ source("R/ltm_site_selection.R")
 
 :::
 
-
 ```{r setup}
 #| include: true
 #| eval: true
-
-if(!is.null(params$data)) {
-  ltm_sites = format_siteList(params$data,
-                       column_mapping = list(Latitude = params$y_col, ident = params$id_col, Longitude = params$x_col),
-                       column_fill = list(Waterbody = params$river))}
+if(!is.null(parameters$data)) {
+  ltm_sites <- 
+    format_siteList(
+      parameters$data,
+      column_mapping = parameters$column_mapping,
+      column_fill = list(Waterbody = parameters$river),
+      method = site_selection_method)
+} 
 
 ```
 
 
 ```{r select-random-sites}
 
-rand_sites = random_sites(waterbody = params$river, sitelist = ltm_sites)
-print(head(rand_sites))
-#print(file_name)
+rand_sites = random_sites(waterbody = parameters$river, sitelist = ltm_sites)
+
 ```
 
-```{r export-gpx}
-#| eval: false
-rand_sites_gpx <- output_gpx(gpx_format(rand_sites), file_name)
-#write.csv(rand_sites, file = paste(file_name,".csv", sep=""))
+```{r create-gpx}
+#| eval: true
+#| warning: false
+#| message: false
+gpx_path <- paste(out_dir, "/gpx/", file_name,".gpx", sep="")
+
+pt_data <- 
+  rand_sites %>% 
+  mutate(flag = ifelse(selection == "Primary", # create unique symbols for primary and alt sites
+                       "Navaid, Green",  
+                       "Navaid, Red")) %>% 
+ select(ident, flag)
+
+
+
+rand_sites_gpx <- create_gpx(gpx_format(rand_sites), gpx_path, output = FALSE) %>% 
+  add_gpx_data(gpx_file = .,
+               insert_data = pt_data,
+               tagSchema = c("name" = "ident", "sym" = "flag"))
+
+
+writeLines(rand_sites_gpx, gpx_path)
+
 ```
 
 ```{r create-basemap}
-#| eval: false
+#| eval: true
+#| include: false
+#| warning: false
+#| message: false
 
-basemap = import_rivermap("C:/Users/jason.oconnor/OneDrive - Florida Fish and Wildlife Conservation/Documents/Misc/LTM_lakes_new.shp", params$river)
+basemap = import_rivermap("data/shapefiles/rivers.shp", parameters$river)
 
 # # 
 sitemap = plot_sitemap(basemap,
@@ -63,40 +124,58 @@ sitemap = plot_sitemap(basemap,
                          point_size = 5,
                          map_title = title,
                          save.to.file = TRUE,
-                         file_name = file_name)
+                         file_name = paste(out_dir,"/maps/",file_name, sep=""))
 ```
 
-
 ```{r sitelist}
-#| eval: false
+#| eval: true
 #| results: asis
-#| include: false
 #| echo: false
+rand_sites <- rand_sites %>% 
+  arrange(Grid) 
 
 for(x in 1:length(levels(rand_sites$Zone))){
-  tab = rand_sites %>% 
+  
+  tab <- if(site_selection_method == "center-line") {
+    rand_sites %>% 
+      filter(Zone == levels(rand_sites$Zone)[[x]]) %>%
+      dplyr::select(Site = ident, 
+                    Longitude,
+                    Latitude, 
+                    Segment = Zone, 
+                    Selection = selection)
+    } else if(site_selection_method == "grid") {
+      rand_sites %>% 
                      filter(Zone == levels(rand_sites$Zone)[[x]]) %>%
                      dplyr::select(Site = ident, 
                                    Longitude,
                                    Latitude, 
-                                   Segment = Zone, 
+                                   Segment = Zone,
+                                   Grid,
+                                   Minigrid,
+                                   Type = Habitat,
                                    Selection = selection)
-print(knitr::kable(tab %>% 
-  dplyr::mutate_at(c("Longitude","Latitude"),~base::format(.,digits = 7)),
-  format= "latex", caption = paste("Segment:",levels(rand_sites$Zone)[[x]], sep=" "),
-  digits = 7, booktabs = TRUE, longtable = TRUE, align = "c") %>%
-   kableExtra::kable_paper("hover", full_width = F) %>% 
-     kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 14) %>%
-    kableExtra::row_spec(which(tab$Selection == "Alternate"), background = "#ECECEC"))
+      }
+knitr::kable(
+  tab %>% 
+  dplyr::mutate_at(c("Longitude","Latitude"), ~base::format(.,digits = 7)),
+                   format= "html", 
+                   aption = paste("Segment:",levels(rand_sites$Zone)[[x]], sep=" "),
+                   booktabs = TRUE,
+                   longtable = TRUE, 
+                   align = "c") %>%
+    kableExtra::kable_paper("hover", full_width = F) %>% 
+    kableExtra::kable_styling(latex_options = c("hold_position"), font_size = 14) %>%
+    kableExtra::row_spec(which(tab$Selection == "Alternate"), background = "#ECECEC") %>% 
+  print()
 }
 ```
 
 ```{r sitemap}
-#| eval: false
-#| include: false
+#| eval: true
+#| include: true
 #| echo: false
-#| out-extra=ifelse(params$rotate_map,"angle=270","angle=0")
 #| warning: false
-  
+##| out-extra=ifelse(parameters$rotate_map,"angle=270","angle=0")  
  print(sitemap)
 ```

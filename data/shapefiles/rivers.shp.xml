@@ -1,0 +1,830 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Florida Resources and Environmental Analysis Center (FREAC), University of Florida (UF) Geoplan, Department of Landscape Architecture, Florida Greenways Planning Team</origin>
+				<pubdate>1989</pubdate>
+				<title>Major River Lines Florida</title>
+				<geoform>vector digital data</geoform>
+				<smcilnkh>false</smcilnkh>
+				<smcisrct>
+					<timeinfo>
+						<sngdate>
+							<time>Unknown</time>
+						</sngdate>
+					</timeinfo>
+				</smcisrct>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This GIS data set represents Florida's 50 major rivers as identified in the "Florida Rivers Assessment", completed for the Florida Department of Natural Resources (DNR) in December 1989 by Florida Resources and Environmental Analysis Center (FREAC) at Florida State University.  Florida Marine Research Institute (FMRI) staff downloaded these data from the Florida Department of Environmental Protection (FDEP) FTP site.  These data are available in both polygon and line format.</abstract>
+			<purpose>These data represent major rivers for cartographic reference only.  The original source scale and accuracy is not known, therefore these data are  not appropriate for analysis.  Use with caution.</purpose>
+			<supplinf>
+Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.
+
+The line data set includes additional smaller streams not included in the polygon data set.  Some rivers have changed course since the 1989 source date.  FMRI has not made any edits to the positional accuracy of these data.  Use with caution.
+</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1989</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<keywords>
+			<theme>
+				<themekt>FWRItheme</themekt>
+				<themekey>GIS</themekey>
+				<themekey>mapping</themekey>
+				<themekey>hydrography</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>geoscientificInformation</themekey>
+			</theme>
+			<place>
+				<placekt>FWRIplace</placekt>
+				<placekey>Florida</placekey>
+				<placekey>statewide</placekey>
+				<placekey>north Florida</placekey>
+				<placekey>northeast Florida</placekey>
+				<placekey>northwest Florida</placekey>
+				<placekey>south Florida</placekey>
+				<placekey>southwest Florida</placekey>
+				<placekey>southeast Florida</placekey>
+				<placekey>Florida Panhandle</placekey>
+				<placekey>Florida Peninsula</placekey>
+			</place>
+			<place>
+				<placekt>Florida Counties</placekt>
+			</place>
+			<place>
+				<placekt>Florida Waterbodies</placekt>
+			</place>
+			<place>
+				<placekt>FWC Region</placekt>
+				<placekey>FWC Region-North Central</placekey>
+				<placekey>FWC Region-Northeast</placekey>
+				<placekey>FWC Region-Northwest</placekey>
+				<placekey>FWC Region-South</placekey>
+				<placekey>FWC Region-Southwest</placekey>
+			</place>
+			<place>
+				<placekt>Water Management Districts</placekt>
+				<placekey>Northwest Florida Water Management District</placekey>
+				<placekey>South Florida Water Management District</placekey>
+				<placekey>Southwest Florida Water Management District</placekey>
+				<placekey>St. Johns River Water Management District</placekey>
+				<placekey>Suwannee River Water Management District</placekey>
+			</place>
+		</keywords>
+		<accconst>Available with Caution. All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</accconst>
+		<useconst>Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source, and FREAC, Geoplan, FDEP as the originators, would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>GISLibrarian</cntper>
+					<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+				</cntperp>
+				<cntpos>GIS Data Librarian</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+					<city>St. Petersburg</city>
+					<state>Florida</state>
+					<postal>33701</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>727-896-8626</cntvoice>
+				<cntfax>727-893-1679</cntfax>
+				<cntemail>GISLibrarian@MyFWC.com</cntemail>
+				<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+				<smcoemhy>false</smcoemhy>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Florida Department of Natural Resources. 1989. Florida River's Assessment.  FREAC, Geoplan, FDEP.</datacred>
+		<secinfo>
+			<secsys>FMRI-DC</secsys>
+			<secclass>Available with caution.</secclass>
+			<sechandl>Available with caution.</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 8.3.0.800</native>
+		<smbrowse>false</smbrowse>
+		<smtype>1</smtype>
+		<spdom>
+			<bounding>
+				<westbc>-87.639488</westbc>
+				<eastbc>-79.886085</eastbc>
+				<northbc>31.045372</northbc>
+				<southbc>25.764821</southbc>
+			</bounding>
+		</spdom>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>All entities and attributes have been identified and documented.  Attribute accuracy has not been verified by FMRI.</attraccr>
+		</attracc>
+		<logic>FMRI has made no effort to verify the logical consistency of these data.</logic>
+		<posacc>
+			<horizpa>
+				<horizpar>FMRI QA/QC staff have verified, using 1999 DOQQs as reference, that some of the rivers appear to have changed course.  FMRI has not made any edits to the positional accuracy of these data.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Florida Department of Natural Resources (DNR)</origin>
+						<pubdate>1989</pubdate>
+						<title>Florida River's Assessment.</title>
+						<geoform>paper</geoform>
+						<smcilnkh>false</smcilnkh>
+						<smcisrct>
+							<timeinfo>
+								<sngdate>
+									<time>Unknown</time>
+								</sngdate>
+							</timeinfo>
+						</smcisrct>
+					</citeinfo>
+				</srccite>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>DNR</srccitea>
+			</srcinfo>
+			<procstep>
+				<procdesc>FREAC constructed these data as a coverage by selecting linear attributes from the DLG Hydrological Data layer. The "Florida Rivers Assessment" was, when possible, used as a reference for selecting the boundaries of each water body.</procdesc>
+				<srcused>DNR</srcused>
+				<procdate>1989</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>FREAC (Florida Resources and Environmental Analysis Center)</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>UCC 2200 FSU</address>
+							<city>Tallahassee</city>
+							<state>FL</state>
+							<postal>32306-2641</postal>
+						</cntaddr>
+						<cntvoice>(850) 644-2007</cntvoice>
+						<cntfax>(850) 644-7360</cntfax>
+						<cntinst>http://www.freac.fsu.edu/</cntinst>
+						<smcoemhy>false</smcoemhy>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+FGDL performed the following quality assurance steps:
+
+-Reprojected data to FGDL Albers
+-Set Precision to DOUBLE
+-Set Tolerances to FGDL Standards
+-Added DESCRIPT item based on TYPE
+</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>FGDL (Florida Geographic Data Library)</cntorg>
+							<cntper>Operator</cntper>
+						</cntorgp>
+						<cntpos>Operator</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>
+Florida Geographic Data Library
+431 Architecture Building
+PO Box 115706
+</address>
+							<city>Gainesville</city>
+							<state>FL</state>
+							<postal>32611-5706</postal>
+						</cntaddr>
+						<cntvoice>352-392-0997, Operator</cntvoice>
+						<cntemail>http://www.fgdl.org/fgdldocs/document/techsupp.htm</cntemail>
+						<hours>24 hours</hours>
+						<cntinst>
+http://www.fgdl.org
+Technical Support:                 http://www.fgdl.org/fgdlfeed.html
+FGDL Frequently Asked Questions:  http://www.fgdl.org/fgdlfaq.html
+FGDL Mailing Lists:                 http://www.fgdl.org/fgdl-l.html
+For FGDL Software:                http://www.fgdl.org/software.html
+</cntinst>
+						<smcoemhy>false</smcoemhy>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+FDEP performed the following:
+
+In September, 2000, the shapefile of this dataset was inserted into Spatial Database Engine (SDE 3.0.2).  SDE is ESRI's client/server technology for storing and managing spatial data in a relational database management system (RDBMS) and for spatially enabling existing RDBMS tables.  For this dataset, ARC/INFO specific fields, such as &lt;cover&gt;# and &lt;cover&gt;-id were dropped.
+</procdesc>
+				<procdate>2000</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>FDEP (Florida Department of Environmental Protection)</cntorg>
+							<cntper>Brockwell, Eric</cntper>
+						</cntorgp>
+						<cntpos>Systems Project Analyst</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>3900 Commonwealth Blvd., Ms 240</address>
+							<city>Tallahassee</city>
+							<state>FL</state>
+							<postal>32399</postal>
+						</cntaddr>
+						<cntvoice>850-488-0892</cntvoice>
+						<hours>8:00 a.m.-5:00 p.m.</hours>
+						<smcoemhy>false</smcoemhy>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>FMRI staff downloaded the shapefiles of this data set from the FDEP FTP site.  FMRI reprojected these data into Albers NAD 83 and loaded the shapefile into ArcSDE 8.3</procdesc>
+				<procdate>2003</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>GISLibrarian</cntper>
+							<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+						</cntperp>
+						<cntpos>GIS Data Librarian</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+							<city>St. Petersburg</city>
+							<state>Florida</state>
+							<postal>33701</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>727-896-8626</cntvoice>
+						<cntfax>727-893-1679</cntfax>
+						<cntemail>GISLibrarian@MyFWC.com</cntemail>
+						<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+						<smcoemhy>false</smcoemhy>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<smcaptur>false</smcaptur>
+		<ptvctinf><esriterm Name="rivers"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<eainfo>
+		<detailed Name="rivers">
+			<enttyp>
+				<enttypl>GIS.FWC.rivers_major_arc</enttypl>
+				<enttypd>Lines representing Florida's major rivers.</enttypd>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr>
+				<attrlabl>TYPE</attrlabl>
+				<attrdef>Type of hydrologic feature.  Values include canal, creek, lake, and river.</attrdef>
+				<smcaptur>false</smcaptur>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Name of hydrologic feature.</attrdef>
+				<smcaptur>false</smcaptur>
+				<attalias Sync="TRUE">NAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<smcaptur>false</smcaptur>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">TYPE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>FMRI.rivers_major_poly</enttypl>
+				<enttypd>Polygons representing Florida's major rivers.</enttypd>
+			</enttyp>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Name of hydrologic feature.</attrdef>
+				<smcaptur>false</smcaptur>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<smcaptur>false</smcaptur>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE.AREA</attrlabl>
+				<attrdef>Area of polygon (in square meters).  Automatically calculated by SDE.</attrdef>
+				<smcaptur>false</smcaptur>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE.LEN</attrlabl>
+				<attrdef>Length of polygon perimeter (in meters).  Automatically calculated by SDE.</attrdef>
+				<smcaptur>false</smcaptur>
+			</attr>
+			<attr>
+				<attrlabl>TYPE</attrlabl>
+				<attrdef>Type of hydrologic feature.  Values include canal, creek, lake, and river.</attrdef>
+				<smcaptur>false</smcaptur>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>Both the line and polygon data sets include attributes describing NAME and TYPE of hydrologic feature.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>GISLibrarian</cntper>
+					<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+				</cntperp>
+				<cntpos>GIS Data Librarian</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+					<city>St. Petersburg</city>
+					<state>Florida</state>
+					<postal>33701</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>727-896-8626</cntvoice>
+				<cntfax>727-893-1679</cntfax>
+				<cntemail>GISLibrarian@MyFWC.com</cntemail>
+				<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+				<smcoemhy>false</smcoemhy>
+			</cntinfo>
+		</distrib>
+		<distliab>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set or the appropriate originator; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SHP</formname>
+					<asciistr>
+						<casesens>false</casesens>
+					</asciistr>
+				</digtinfo>
+				<digtopt>
+					<smdistty>1</smdistty>
+				</digtopt>
+			</digform>
+			<fees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</fees>
+			<ordering>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordering>
+			<turnarnd>Usually within 10 business days, although, complex requests may take longer</turnarnd>
+			<smdistty>1</smdistty>
+		</stdorder>
+		<custom>These data have caveats. Contact GIS Librarian for details. If these data are maintained by an agency other than FWC-FWRI, then the source agency should be contacted directly for requests.</custom>
+		<smdistnm>Available with caution</smdistnm>
+		<resdesc>Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd>20030709</metd>
+		<metrd>20060503</metrd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>GISLibrarian</cntper>
+					<cntorg>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</cntorg>
+				</cntperp>
+				<cntpos>GIS Data Librarian</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</address>
+					<city>St. Petersburg</city>
+					<state>Florida</state>
+					<postal>33701</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>727-896-8626</cntvoice>
+				<cntfax>727-893-1679</cntfax>
+				<cntemail>GISLibrarian@MyFWC.com</cntemail>
+				<hours>8:00 a.m.-5:00 p.m. Eastern time</hours>
+				<smcoemhy>false</smcoemhy>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>No restrictions on metadata.</metac>
+		<metuc>Metadata must be distributed with the data set.</metuc>
+		<metsi>
+			<metscs>FMRI-MC</metscs>
+			<metsc>Available</metsc>
+			<metshd>Metadata must be distributed with the data set.</metshd>
+		</metsi>
+	</metainfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>D NAD 1983 2011</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<Esri>
+		<DataProperties>
+			<itemProps>
+				<itemName>rivers_spbu</itemName>
+				<itemLocation>
+					<linkage>file://\\10M12G2\C$\Users\jason.oconnor\Documents\Projects\SPBU\GIS\SPBU_Map\SPBU_Map.gdb</linkage>
+					<protocol>Local Area Network</protocol>
+				</itemLocation>
+				<imsContentType>002</imsContentType>
+				<nativeExtBox><westBL Sync="TRUE">52651.256400</westBL><eastBL Sync="TRUE">792659.199300</eastBL><southBL Sync="TRUE">201895.762100</southBL><northBL Sync="TRUE">781885.703000</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.000</itemSize></itemProps>
+			<coordRef>
+				<type>Projected</type>
+				<geogcsn>GCS_NAD_1983_2011</geogcsn>
+				<csUnits>Linear Unit: Meter (1.000000)</csUnits>
+				<peXml>&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.8.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_2011_Florida_GDL_Albers&amp;quot;,GEOGCS[&amp;quot;GCS_NAD_1983_2011&amp;quot;,DATUM[&amp;quot;D_NAD_1983_2011&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,400000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-84.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,24.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,31.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,24.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,6439]]&lt;/WKT&gt;&lt;XOrigin&gt;-19550100&lt;/XOrigin&gt;&lt;YOrigin&gt;-7526400&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102967&lt;/WKID&gt;&lt;LatestWKID&gt;6439&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+			<lineage>
+				<Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20210712" Time="164055">FeatureClassToFeatureClass GIS.FWC.rivers_major_arc C:\Users\jason.oconnor\Documents\Projects\SPBU\GIS\SPBU_Map\SPBU_Map.gdb rivers_spbu # "NAME "Name" true true false 50 Text 0 0,First,#,GIS.FWC.rivers_major_arc,NAME,0,50;TYPE "Type" true true false 20 Text 0 0,First,#,GIS.FWC.rivers_major_arc,TYPE,0,20" #</Process>
+				<Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\Project" Date="20211129" Time="174501">Project rivers_spbu C:\Users\jason.oconnor\Documents\Projects\SPBU\GIS\SPBU_Map\SPBU_Map.gdb\rivers_spbu_dd GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]] WGS_1984_(ITRF08)_To_NAD_1983_2011 PROJCS["NAD_1983_2011_Florida_GDL_Albers",GEOGCS["GCS_NAD_1983_2011",DATUM["D_NAD_1983_2011",SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Albers"],PARAMETER["False_Easting",400000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-84.0],PARAMETER["Standard_Parallel_1",24.0],PARAMETER["Standard_Parallel_2",31.5],PARAMETER["Latitude_Of_Origin",24.0],UNIT["Meter",1.0]] NO_PRESERVE_SHAPE # NO_VERTICAL</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20211129" Time="174616">FeatureClassToFeatureClass rivers_spbu_dd "C:\Users\jason.oconnor\OneDrive - Florida Fish and Wildlife Conservation\Documents\Misc" rivers.shp # "NAME "Name" true true false 50 Text 0 0,First,#,rivers_spbu_dd,NAME,0,50;TYPE "Type" true true false 20 Text 0 0,First,#,rivers_spbu_dd,TYPE,0,20;Shape_Length "Shape_Length" false true true 8 Double 0 0,First,#,rivers_spbu_dd,Shape_Length,-1,-1" #</Process></lineage>
+		</DataProperties>
+		<SyncDate>20211129</SyncDate>
+		<SyncTime>17461500</SyncTime>
+		<ModDate>20211129</ModDate>
+		<ModTime>17461500</ModTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<CreaDate>20211129</CreaDate><CreaTime>17450000</CreaTime><SyncOnce>FALSE</SyncOnce></Esri>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdContact>
+		<rpIndName>GISLibrarian</rpIndName>
+		<rpOrgName>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</rpOrgName>
+		<rpPosName>GIS Data Librarian</rpPosName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>727-896-8626</voiceNum>
+				<faxNum>727-893-1679</faxNum>
+			</cntPhone>
+			<cntAddress addressType="both">
+				<delPoint>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</delPoint>
+				<city>St. Petersburg</city>
+				<adminArea>Florida</adminArea>
+				<postCode>33701</postCode>
+				<country>US</country>
+				<eMailAdd>GISLibrarian@MyFWC.com</eMailAdd>
+			</cntAddress>
+			<cntHours>8:00 a.m.-5:00 p.m. Eastern time</cntHours>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+	<mdDateSt>20030709</mdDateSt>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<distInfo>
+		<distributor>
+			<distorCont>
+				<rpIndName>GISLibrarian</rpIndName>
+				<rpOrgName>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</rpOrgName>
+				<rpPosName>GIS Data Librarian</rpPosName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>727-896-8626</voiceNum>
+						<faxNum>727-893-1679</faxNum>
+					</cntPhone>
+					<cntAddress addressType="both">
+						<delPoint>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</delPoint>
+						<city>St. Petersburg</city>
+						<adminArea>Florida</adminArea>
+						<postCode>33701</postCode>
+						<country>US</country>
+						<eMailAdd>GISLibrarian@MyFWC.com</eMailAdd>
+					</cntAddress>
+					<cntHours>8:00 a.m.-5:00 p.m. Eastern time</cntHours>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="005"/>
+				</role>
+			</distorCont>
+			<distorOrdPrc>
+				<resFees>None. However, persons or organizations requesting information must provide transfer media if FTP is not available and must pay express shipping costs if express shipping is required.</resFees>
+				<ordInstr>Contact GIS Librarian by e-mail, telephone, or letter explaining which products are needed and providing a brief description of how the products will be used. Also, provide name and address of the person or organization requesting the products.</ordInstr>
+				<ordTurn>Usually within 10 business days, although, complex requests may take longer</ordTurn>
+			</distorOrdPrc>
+			<distorFormat>
+				<formatName>SHP</formatName>
+			</distorFormat>
+		</distributor>
+		<distributor>
+			<distorCont>
+				<rpIndName>GISLibrarian</rpIndName>
+				<rpOrgName>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</rpOrgName>
+				<rpPosName>GIS Data Librarian</rpPosName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>727-896-8626</voiceNum>
+						<faxNum>727-893-1679</faxNum>
+					</cntPhone>
+					<cntAddress addressType="both">
+						<delPoint>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</delPoint>
+						<city>St. Petersburg</city>
+						<adminArea>Florida</adminArea>
+						<postCode>33701</postCode>
+						<country>US</country>
+						<eMailAdd>GISLibrarian@MyFWC.com</eMailAdd>
+					</cntAddress>
+					<cntHours>8:00 a.m.-5:00 p.m. Eastern time</cntHours>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="005"/>
+				</role>
+			</distorCont>
+			<distorOrdPrc>
+				<ordInstr>These data have caveats. Contact GIS Librarian for details. If these data are maintained by an agency other than FWC-FWRI, then the source agency should be contacted directly for requests.</ordInstr>
+			</distorOrdPrc>
+		</distributor>
+		<distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo>
+	<dataIdInfo><idCitation><resTitle>Major River Lines Florida</resTitle><date><pubDate>1989</pubDate></date><citRespParty><rpOrgName>Florida Resources and Environmental Analysis Center (FREAC), University of Florida (UF) Geoplan, Department of Landscape Architecture, Florida Greenways Planning Team</rpOrgName><role><RoleCd value="006"/></role></citRespParty><presForm><PresFormCd value="005"/></presForm><presForm><fgdcGeoform>vector digital data</fgdcGeoform></presForm></idCitation><idAbs>This GIS data set represents Florida's 50 major rivers as identified in the "Florida Rivers Assessment", completed for the Florida Department of Natural Resources (DNR) in December 1989 by Florida Resources and Environmental Analysis Center (FREAC) at Florida State University.  Florida Marine Research Institute (FMRI) staff downloaded these data from the Florida Department of Environmental Protection (FDEP) FTP site.  These data are available in both polygon and line format.</idAbs><idPurp>These data represent major rivers for cartographic reference only.  The original source scale and accuracy is not known, therefore these data are  not appropriate for analysis.  Use with caution.</idPurp><idCredit>Florida Department of Natural Resources. 1989. Florida River's Assessment.  FREAC, Geoplan, FDEP.</idCredit><idStatus><ProgCd value="001"/></idStatus><idPoC><rpIndName>GISLibrarian</rpIndName><rpOrgName>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</rpOrgName><rpPosName>GIS Data Librarian</rpPosName><rpCntInfo><cntPhone><voiceNum>727-896-8626</voiceNum><faxNum>727-893-1679</faxNum></cntPhone><cntAddress addressType="both"><delPoint>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</delPoint><city>St. Petersburg</city><adminArea>Florida</adminArea><postCode>33701</postCode><country>US</country><eMailAdd>GISLibrarian@MyFWC.com</eMailAdd></cntAddress><cntHours>8:00 a.m.-5:00 p.m. Eastern time</cntHours></rpCntInfo><role><RoleCd value="007"/></role></idPoC><resMaint><maintFreq><MaintFreqCd value="011"/></maintFreq></resMaint><placeKeys><keyword>Florida</keyword><keyword>statewide</keyword><keyword>north Florida</keyword><keyword>northeast Florida</keyword><keyword>northwest Florida</keyword><keyword>south Florida</keyword><keyword>southwest Florida</keyword><keyword>southeast Florida</keyword><keyword>Florida Panhandle</keyword><keyword>Florida Peninsula</keyword><thesaName><resTitle>FWRIplace</resTitle></thesaName></placeKeys><placeKeys><thesaName><resTitle>Florida Counties</resTitle></thesaName></placeKeys><placeKeys><thesaName><resTitle>Florida Waterbodies</resTitle></thesaName></placeKeys><placeKeys><keyword>FWC Region-North Central</keyword><keyword>FWC Region-Northeast</keyword><keyword>FWC Region-Northwest</keyword><keyword>FWC Region-South</keyword><keyword>FWC Region-Southwest</keyword><thesaName><resTitle>FWC Region</resTitle></thesaName></placeKeys><placeKeys><keyword>Northwest Florida Water Management District</keyword><keyword>South Florida Water Management District</keyword><keyword>Southwest Florida Water Management District</keyword><keyword>St. Johns River Water Management District</keyword><keyword>Suwannee River Water Management District</keyword><thesaName><resTitle>Water Management Districts</resTitle></thesaName></placeKeys><themeKeys><keyword>GIS</keyword><keyword>mapping</keyword><keyword>hydrography</keyword><thesaName><resTitle>FWRItheme</resTitle></thesaName></themeKeys><themeKeys><keyword>geoscientificInformation</keyword><thesaName><resTitle>ISO 19115 Topic Category</resTitle></thesaName></themeKeys><searchKeys><keyword>GIS</keyword><keyword>mapping</keyword><keyword>hydrography</keyword><keyword>geoscientificInformation</keyword><keyword>Florida</keyword><keyword>statewide</keyword><keyword>north Florida</keyword><keyword>northeast Florida</keyword><keyword>northwest Florida</keyword><keyword>south Florida</keyword><keyword>southwest Florida</keyword><keyword>southeast Florida</keyword><keyword>Florida Panhandle</keyword><keyword>Florida Peninsula</keyword><keyword>FWC Region-North Central</keyword><keyword>FWC Region-Northeast</keyword><keyword>FWC Region-Northwest</keyword><keyword>FWC Region-South</keyword><keyword>FWC Region-Southwest</keyword><keyword>Northwest Florida Water Management District</keyword><keyword>South Florida Water Management District</keyword><keyword>Southwest Florida Water Management District</keyword><keyword>St. Johns River Water Management District</keyword><keyword>Suwannee River Water Management District</keyword></searchKeys><resConst><Consts><useLimit>Acknowledgement of the FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute) as the data source, and FREAC, Geoplan, FDEP as the originators, would be appreciated in any products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data.  Please cite the original metadata when using portions of the record to create a similar record of slightly altered data, such as reprojection. If any data are modified or adjusted, please share the edited information with FWC. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. FWC shall not be liable for improper or incorrect use of this data. These data are not legal documents and are not to be used as such.  This is not a survey data set and should not be utilized as such. These data are not to be used for navigation.</useLimit></Consts></resConst><resConst><LegConsts><useLimit>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to anyone as other than a FWC-FWRI produced data set or the appropriate originator; it is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The user assumes all responsibility for the accuracy and suitability of this data set for a specific application. In no event will the staff of the Fish and Wildlife Research Institute be liable for any damages, including lost profits, lost savings, or other incidental or consequential damages arising from the use of or the inability to use this data set.</useLimit><accessConsts><RestrictCd value="008"/></accessConsts><othConsts>Available with Caution. All data must be verified by Principal Investigator or Group Database Analyst prior to release.  It is strongly recommended that this data is directly acquired from FWC and not indirectly through other sources which may have changed the data in some way. FWC makes no claims as to the data's suitability for other purposes.</othConsts></LegConsts></resConst><resConst><SecConsts><class><ClasscationCd value="available with caution."/></class><classSys>FMRI-DC</classSys><handDesc>Available with caution.</handDesc></SecConsts></resConst><spatRpType><SpatRepTypCd value="001"/></spatRpType><tpCat><TopicCatCd value="008"/></tpCat><envirDesc>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 8.3.0.800</envirDesc><dataExt><geoEle><GeoBndBox><exTypeCode>true</exTypeCode><westBL>-87.639488</westBL><eastBL>-79.886085</eastBL><northBL>31.045372</northBL><southBL>25.764821</southBL></GeoBndBox></geoEle></dataExt><dataExt><exDesc>publication date</exDesc><tempEle><TempExtent><exTemp><TM_Instant><tmPosition time="unknown">1989</tmPosition></TM_Instant></exTemp></TempExtent></tempEle><geoEle/></dataExt><suppInfo>
+Prior to July 1, 2004, the Fish and Wildlife Research Institute (FWRI) was known as the Florida Marine Research Institute (FMRI). The institute name has not been changed in historical data sets or references to work completed by the Florida Marine Research Institute. The institute name has been changed in references to ongoing research, new research, and contact information.
+
+The line data set includes additional smaller streams not included in the polygon data set.  Some rivers have changed course since the 1989 source date.  FMRI has not made any edits to the positional accuracy of these data.  Use with caution.
+</suppInfo><dataLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><dataExt><geoEle><GeoBndBox esriExtentType="search"><exTypeCode Sync="TRUE">1</exTypeCode><westBL Sync="TRUE">-87.639488</westBL><eastBL Sync="TRUE">-79.886085</eastBL><northBL Sync="TRUE">31.045372</northBL><southBL Sync="TRUE">25.764821</southBL></GeoBndBox></geoEle></dataExt></dataIdInfo>
+	<mdMaint>
+		<maintFreq>
+			<MaintFreqCd value="012"/>
+		</maintFreq>
+		<maintNote>Last metadata review date: 2006-05-03</maintNote>
+	</mdMaint>
+	<mdConst>
+		<Consts><useLimit>Metadata must be distributed with the data set.</useLimit>
+		</Consts>
+	</mdConst>
+	<mdConst>
+		<LegConsts>
+			<accessConsts>
+				<RestrictCd value="008"/>
+			</accessConsts>
+			<othConsts>No restrictions on metadata.</othConsts>
+		</LegConsts>
+	</mdConst>
+	<mdConst>
+		<SecConsts>
+			<class>
+				<ClasscationCd value="available"/>
+			</class>
+			<classSys>FMRI-MC</classSys>
+			<handDesc>Metadata must be distributed with the data set.</handDesc>
+		</SecConsts>
+	</mdConst>
+	<dqInfo>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005"/>
+			</scpLvl>
+		</dqScope>
+		<report type="DQConcConsis">
+			<measDesc>FMRI has made no effort to verify the logical consistency of these data.</measDesc>
+		</report>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>FREAC constructed these data as a coverage by selecting linear attributes from the DLG Hydrological Data layer. The "Florida Rivers Assessment" was, when possible, used as a reference for selecting the boundaries of each water body.</stepDesc>
+				<stepDateTm>1989</stepDateTm>
+				<stepProc>
+					<rpOrgName>FREAC (Florida Resources and Environmental Analysis Center)</rpOrgName>
+					<rpCntInfo>
+						<cntPhone>
+							<voiceNum>(850) 644-2007</voiceNum>
+							<faxNum>(850) 644-7360</faxNum>
+						</cntPhone>
+						<cntAddress addressType="postal">
+							<delPoint>UCC 2200 FSU</delPoint>
+							<city>Tallahassee</city>
+							<adminArea>FL</adminArea>
+							<postCode>32306-2641</postCode>
+						</cntAddress>
+						<cntInstr>http://www.freac.fsu.edu/</cntInstr>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+				<stepSrc type="used">
+					<srcCitatn>
+						<resAltTitle>DNR</resAltTitle>
+					</srcCitatn>
+				</stepSrc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>
+FGDL performed the following quality assurance steps:
+
+-Reprojected data to FGDL Albers
+-Set Precision to DOUBLE
+-Set Tolerances to FGDL Standards
+-Added DESCRIPT item based on TYPE
+</stepDesc>
+				<stepProc>
+					<rpIndName>Operator</rpIndName>
+					<rpOrgName>FGDL (Florida Geographic Data Library)</rpOrgName>
+					<rpPosName>Operator</rpPosName>
+					<rpCntInfo>
+						<cntPhone>
+							<voiceNum>352-392-0997, Operator</voiceNum>
+						</cntPhone>
+						<cntAddress addressType="postal">
+							<delPoint>
+Florida Geographic Data Library
+431 Architecture Building
+PO Box 115706
+</delPoint>
+							<city>Gainesville</city>
+							<adminArea>FL</adminArea>
+							<postCode>32611-5706</postCode>
+							<eMailAdd>http://www.fgdl.org/fgdldocs/document/techsupp.htm</eMailAdd>
+						</cntAddress>
+						<cntHours>24 hours</cntHours>
+						<cntInstr>
+http://www.fgdl.org
+Technical Support:                 http://www.fgdl.org/fgdlfeed.html
+FGDL Frequently Asked Questions:  http://www.fgdl.org/fgdlfaq.html
+FGDL Mailing Lists:                 http://www.fgdl.org/fgdl-l.html
+For FGDL Software:                http://www.fgdl.org/software.html
+</cntInstr>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>
+FDEP performed the following:
+
+In September, 2000, the shapefile of this dataset was inserted into Spatial Database Engine (SDE 3.0.2).  SDE is ESRI's client/server technology for storing and managing spatial data in a relational database management system (RDBMS) and for spatially enabling existing RDBMS tables.  For this dataset, ARC/INFO specific fields, such as &lt;cover&gt;# and &lt;cover&gt;-id were dropped.
+</stepDesc>
+				<stepDateTm>2000</stepDateTm>
+				<stepProc>
+					<rpIndName>Brockwell, Eric</rpIndName>
+					<rpOrgName>FDEP (Florida Department of Environmental Protection)</rpOrgName>
+					<rpPosName>Systems Project Analyst</rpPosName>
+					<rpCntInfo>
+						<cntPhone>
+							<voiceNum>850-488-0892</voiceNum>
+						</cntPhone>
+						<cntAddress addressType="both">
+							<delPoint>3900 Commonwealth Blvd., Ms 240</delPoint>
+							<city>Tallahassee</city>
+							<adminArea>FL</adminArea>
+							<postCode>32399</postCode>
+						</cntAddress>
+						<cntHours>8:00 a.m.-5:00 p.m.</cntHours>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>FMRI staff downloaded the shapefiles of this data set from the FDEP FTP site.  FMRI reprojected these data into Albers NAD 83 and loaded the shapefile into ArcSDE 8.3</stepDesc>
+				<stepDateTm>2003</stepDateTm>
+				<stepProc>
+					<rpIndName>GISLibrarian</rpIndName>
+					<rpOrgName>FWC-FWRI (Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute)</rpOrgName>
+					<rpPosName>GIS Data Librarian</rpPosName>
+					<rpCntInfo>
+						<cntPhone>
+							<voiceNum>727-896-8626</voiceNum>
+							<faxNum>727-893-1679</faxNum>
+						</cntPhone>
+						<cntAddress addressType="both">
+							<delPoint>
+Fish and Wildlife Research Institute
+100 Eighth Avenue Southeast
+</delPoint>
+							<city>St. Petersburg</city>
+							<adminArea>Florida</adminArea>
+							<postCode>33701</postCode>
+							<country>US</country>
+							<eMailAdd>GISLibrarian@MyFWC.com</eMailAdd>
+						</cntAddress>
+						<cntHours>8:00 a.m.-5:00 p.m. Eastern time</cntHours>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009"/>
+					</role>
+				</stepProc>
+			</prcStep>
+			<dataSource>
+				<srcCitatn>
+					<resTitle>Florida River's Assessment.</resTitle>
+					<resAltTitle>DNR</resAltTitle>
+					<date>
+						<pubDate>1989</pubDate>
+					</date>
+					<citRespParty>
+						<rpOrgName>Florida Department of Natural Resources (DNR)</rpOrgName>
+						<role>
+							<RoleCd value="006"/>
+						</role>
+					</citRespParty>
+					<presForm>
+						<PresFormCd value="paper"/>
+					</presForm>
+					<presForm>
+						<fgdcGeoform>paper</fgdcGeoform>
+					</presForm>
+				</srcCitatn>
+				<srcExt>
+					<tempEle>
+						<TempExtent>
+							<exTemp>
+								<TM_Instant>
+									<tmPosition>
+									</tmPosition>
+								</TM_Instant>
+							</exTemp>
+						</TempExtent>
+					</tempEle>
+				</srcExt>
+			</dataSource>
+		</dataLineage>
+	</dqInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="rivers"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<Binary></Binary>
+	<mdLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="4326" Sync="TRUE"></identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">6.2(3.0.1)</idVersion></refSysID></RefSystem></refSysInfo></metadata>

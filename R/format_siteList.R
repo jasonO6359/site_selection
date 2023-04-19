@@ -9,7 +9,11 @@
 #' @export
 #'
 #' @examples
-format_siteList <- function(data, column_mapping = list(), column_fill = list(), method = "center-line") {
+format_siteList <- 
+  function(data, 
+           column_mapping = list(), 
+           column_fill = list(), 
+           method = "center-line") {
   
   temp = data
   if(is.character(temp)) {

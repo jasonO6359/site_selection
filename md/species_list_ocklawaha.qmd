@@ -1,0 +1,36 @@
+```{r}
+#| message: false
+#| echo: false
+#| fig-width: 7
+#| fig-height: 10
+library(tidyverse)
+ock <- read.csv("data/csv/ock_all_20230418.csv")
+ock_sum <- 
+  ock %>% 
+  mutate(year = lubridate::year(as.Date(Date, "%m/%d/%Y"))) %>% 
+  group_by(SpeciesScientific, SpeciesCommon, SpeciesCode, Segment) %>% 
+  summarise(total = sum(Count, na.rm = TRUE), .groups = "keep") %>% 
+  arrange(Segment) %>% 
+  pivot_wider(names_from = Segment, values_from = total, values_fill = 0) %>% 
+  mutate(grp_mean = (`1` + `2` + `3` + `4`)/4) %>% 
+  mutate(across(where(is.numeric), ~ .x/grp_mean)) %>% 
+  arrange(desc(SpeciesScientific)) %>% 
+  unite(col = spp, SpeciesScientific, SpeciesCommon, SpeciesCode, sep = " - ") %>% 
+  select(-grp_mean)
+
+ock_sum$`1`[ock_sum$`1` == 0] <- NA
+ock_sum$`2`[ock_sum$`2` == 0] <- NA
+ock_sum$`3`[ock_sum$`3` == 0] <- NA
+ock_sum$`4`[ock_sum$`4` == 0] <- NA
+
+ock_sum <-
+  ock_sum %>% 
+  pivot_longer(-spp, names_to = "segment", values_to = "abund") %>% 
+  mutate(segment = as.numeric(segment))
+
+ggplot(data = ock_sum, aes(x = segment, y = spp, fill = abund)) + 
+  geom_raster()
+
+
+
+```

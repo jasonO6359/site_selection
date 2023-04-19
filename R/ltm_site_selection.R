@@ -15,6 +15,10 @@ load("data/ltm_sites.RData")
 
 source("R/default_selection.R")
 
+if(!is.null(default_selection[[params$river]])) {
+  site_selection_method = default_selection[[params$river]]$method
+}
+
 ## format_siteList() -----------------------------------------------------------
 
 source("R/format_siteList.R")
