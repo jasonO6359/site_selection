@@ -12,18 +12,23 @@ html:
       digits: 7
       
 params:
-  river: "Ocklawaha River"
+  river: "Santa Fe River"
   target: "Community"
   year: 2024
-  data: "data/csv/Ocklawaha_sites_all.csv"
-  column_mapping: 'list(Latitude = "Y",
-                        ident = "FID_1_1",
-                        Longitude = "X",
-                        Habitat = "Habitat",
-                        Zone = "River.Segment",
-                        Grid = "GRID",
-                        Waterbody = "REGION",
-                        Minigrid = "Minigrid")'
+
+# params:
+#   river: "Ocklawaha River"
+#   target: "Community"
+#   year: 2024
+#   data: "data/csv/Ocklawaha_sites_all.csv"
+#   column_mapping: 'list(Latitude = "Y",
+#                         ident = "FID_1_1",
+#                         Longitude = "X",
+#                         Habitat = "Habitat",
+#                         Zone = "River.Segment",
+#                         Grid = "GRID",
+#                         Waterbody = "REGION",
+#                         Minigrid = "Minigrid")'
 ---
 
 
@@ -36,7 +41,8 @@ if("column_mapping" %in% names(parameters)) {
   parameters$column_mapping <- eval(parse(text = parameters$column_mapping))
 }
 
-if(Sys.getenv("RSTUDIO_CHILD_PROCESS_PANE") == "") {
+if(Sys.getenv("RSTUDIO_CHILD_PROCESS_PANE") == "" &
+   "data" %in% names(parameters)) {
   parameters$data = paste("../", parameters$data, sep = "")
 }
 
@@ -74,7 +80,7 @@ if(!is.null(parameters$data)) {
       column_mapping = parameters$column_mapping,
       column_fill = list(Waterbody = parameters$river),
       method = site_selection_method)
-} 
+}
 
 ```
 
@@ -140,8 +146,9 @@ sitemap = plot_sitemap(basemap,
 #| eval: true
 #| results: asis
 #| echo: false
-rand_sites <- rand_sites %>% 
-  arrange(Grid) 
+rand_sites <- 
+  rand_sites %>% 
+  arrange(ident) 
 
 for(x in 1:length(levels(rand_sites$Zone))){
   
