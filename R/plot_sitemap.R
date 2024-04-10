@@ -29,8 +29,8 @@ plot_sitemap <- function(basemap,
     if(!is.na(default_selection[[wb]]$map_lims_y[[1]])){
       map_ylim = default_selection[[wb]]$map_lims_y}
   }
-  print(map_xlim)
-  print(map_ylim)
+  #print(map_xlim)
+  #print(map_ylim)
   a <- ggplot() + 
     ggspatial::geom_spatial_path(data=basemap, 
                                  aes(x=x, y=y, group=feature_id), 

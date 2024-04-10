@@ -3,7 +3,7 @@ execute:
   echo: false
   
 html:
-  self-contained: true
+  embed-resources: true
   page-layout: full
   knitr:
     opts_chunk: 
@@ -14,7 +14,7 @@ html:
 params:
   river: "Ocklawaha River"
   target: "Community"
-  year: 2023
+  year: 2024
   data: "data/csv/Ocklawaha_sites_all.csv"
   column_mapping: 'list(Latitude = "Y",
                         ident = "FID_1_1",
@@ -89,7 +89,12 @@ rand_sites = random_sites(waterbody = parameters$river, sitelist = ltm_sites)
 #| eval: true
 #| warning: false
 #| message: false
-gpx_path <- paste(out_dir, "/gpx/", file_name,".gpx", sep="")
+
+gpx_dir <- paste(out_dir,"/gpx/", sep="")
+gpx_path <- paste(gpx_dir, file_name,".gpx", sep="")
+if(!dir.exists(gpx_dir)) {
+  dir.create(gpx_dir)
+}
 
 pt_data <- 
   rand_sites %>% 
@@ -119,12 +124,16 @@ writeLines(rand_sites_gpx, gpx_path)
 basemap = import_rivermap("data/shapefiles/rivers.shp", parameters$river)
 
 # # 
+map_dir = paste(out_dir,"/maps/", sep="")
+if(!dir.exists(map_dir)) {
+  dir.create(map_dir)
+}
 sitemap = plot_sitemap(basemap,
                          rand_sites,
                          point_size = 5,
                          map_title = title,
                          save.to.file = TRUE,
-                         file_name = paste(out_dir,"/maps/",file_name, sep=""))
+                         file_name = paste(map_dir, file_name, sep=""))
 ```
 
 ```{r sitelist}
