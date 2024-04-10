@@ -11,24 +11,29 @@ html:
       fig-height: 11
       digits: 7
       
-params:
-  river: "Santa Fe River"
-  target: "Community"
-  year: 2024
-
 # params:
-#   river: "Ocklawaha River"
+#   river: "Santa Fe River"
 #   target: "Community"
 #   year: 2024
-#   data: "data/csv/Ocklawaha_sites_all.csv"
-#   column_mapping: 'list(Latitude = "Y",
-#                         ident = "FID_1_1",
-#                         Longitude = "X",
-#                         Habitat = "Habitat",
-#                         Zone = "River.Segment",
-#                         Grid = "GRID",
-#                         Waterbody = "REGION",
-#                         Minigrid = "Minigrid")'
+  
+# params:
+#   river: "Suwannee River"
+#   target: "Community"
+#   year: 2057
+
+params:
+  river: "Ocklawaha River"
+  target: "Community"
+  year: 2099
+  data: "data/csv/Ocklawaha_sites_all.csv"
+  column_mapping: 'list(Latitude = "Y",
+                        ident = "FID_1_1",
+                        Longitude = "X",
+                        Habitat = "Habitat",
+                        Zone = "River.Segment",
+                        Grid = "GRID",
+                        Waterbody = "REGION",
+                        Minigrid = "Minigrid")'
 ---
 
 
