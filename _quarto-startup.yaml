@@ -1,6 +1,6 @@
 project:
   execute-dir: project
-  output-dir: _output
+  output-dir: .
 
 format:
   html:

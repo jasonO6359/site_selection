@@ -1,3 +1,4 @@
+
 #' plot site map
 #'
 #' @param basemap 
@@ -17,6 +18,8 @@ plot_sitemap <- function(basemap,
                          map_title = "NO TITLE", 
                          save.to.file = FALSE, 
                          file_name = "NULL_FILENAME") {
+  library(ggplot2)
+  library(ggspatial)
   wb = unique(sites$Waterbody)[[1]]
   
   edge = 0.00001
